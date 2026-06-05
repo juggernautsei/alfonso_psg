@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "datatables.net-scroller-jqui@2.0.2",
+      "/var/www/html/b/files/package/openemr"
+    ]
+  ],
+  "_from": "datatables.net-scroller-jqui@2.0.2",
+  "_id": "datatables.net-scroller-jqui@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-iIymtOeLAVOovrMmO7duQD+yEhBmHbfsTYwoB63RW22CLqj2pptJwYT1NwEm4+tc0UUW4R6wH3OEiX97Yi28+A==",
+  "_location": "/datatables.net-scroller-jqui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-scroller-jqui@2.0.2",
+    "name": "datatables.net-scroller-jqui",
+    "escapedName": "datatables.net-scroller-jqui",
+    "rawSpec": "2.0.2",
+    "saveSpec": null,
+    "fetchSpec": "2.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-scroller-jqui/-/datatables.net-scroller-jqui-2.0.2.tgz",
+  "_spec": "2.0.2",
+  "_where": "/var/www/html/b/files/package/openemr",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net-jqui": "^1.10.15",
+    "datatables.net-scroller": "2.0.2",
+    "jquery": ">=1.7"
+  },
+  "description": "Scroller for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "virtual scrolling",
+    "DataTables",
+    "jQuery",
+    "table",
+    "jQuery UI"
+  ],
+  "license": "MIT",
+  "main": "js/scroller.jqueryui.js",
+  "name": "datatables.net-scroller-jqui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-Scroller-jQueryUI.git"
+  },
+  "style": "css/scroller.jqueryui.css",
+  "version": "2.0.2"
+}

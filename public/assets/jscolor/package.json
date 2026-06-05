@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "github:EastDesire/jscolor",
+      "/var/www/html/b/files/package/openemr"
+    ]
+  ],
+  "_from": "github:EastDesire/jscolor",
+  "_id": "jscolor@github:EastDesire/jscolor#ebccffb2443869f34b07e467287945557c0a4519",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/jscolor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:EastDesire/jscolor",
+    "rawSpec": "github:EastDesire/jscolor",
+    "saveSpec": "github:EastDesire/jscolor",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:EastDesire/jscolor#ebccffb2443869f34b07e467287945557c0a4519",
+  "_spec": "github:EastDesire/jscolor",
+  "_where": "/var/www/html/b/files/package/openemr",
+  "author": {
+    "name": "Jan Odvarko - East Desire"
+  },
+  "bugs": {
+    "url": "https://github.com/EastDesire/jscolor/issues"
+  },
+  "description": "Simple web color picker with opacity channel and palette. Supports CSS colors such as RGBA and HEX.",
+  "homepage": "https://jscolor.com",
+  "keywords": [
+    "JavaScript",
+    "js",
+    "HEX",
+    "RGBA",
+    "color",
+    "picker",
+    "palette",
+    "swatch",
+    "input",
+    "chooser",
+    "selector",
+    "opacity",
+    "transparency",
+    "alpha",
+    "channel",
+    "support",
+    "AJAX",
+    "ColorPicker",
+    "ColorPalette",
+    "plugin",
+    "touchscreen",
+    "tablet",
+    "smartphone",
+    "mobile",
+    "popup",
+    "widget",
+    "dialog",
+    "dropdown",
+    "control",
+    "HTML5"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "jscolor.js",
+  "name": "jscolor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EastDesire/jscolor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.4.4"
+}

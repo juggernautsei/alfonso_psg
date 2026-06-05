@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      "datatables.net-jqui@1.10.21",
+      "/var/www/html/b/files/package/openemr"
+    ]
+  ],
+  "_from": "datatables.net-jqui@1.10.21",
+  "_id": "datatables.net-jqui@1.10.21",
+  "_inBundle": false,
+  "_integrity": "sha512-yk4y3+Kexpszq/hE0PnfiljxnxtQyMN0OLQWrPQljAs8KOOYqWBMSJMrcmrWcTO7frGlNN/ZaSB7SW4s2DNqUQ==",
+  "_location": "/datatables.net-jqui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "datatables.net-jqui@1.10.21",
+    "name": "datatables.net-jqui",
+    "escapedName": "datatables.net-jqui",
+    "rawSpec": "1.10.21",
+    "saveSpec": null,
+    "fetchSpec": "1.10.21"
+  },
+  "_requiredBy": [
+    "/",
+    "/datatables.net-scroller-jqui"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-jqui/-/datatables.net-jqui-1.10.21.tgz",
+  "_spec": "1.10.21",
+  "_where": "/var/www/html/b/files/package/openemr",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net": "1.10.21",
+    "jquery": ">=1.7"
+  },
+  "description": "DataTables for jQuery with styling for [jQuery UI](http://jqueryui.com/)",
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "filter",
+    "sort",
+    "DataTables",
+    "jQuery",
+    "table",
+    "jQuery UI"
+  ],
+  "license": "MIT",
+  "main": "js/dataTables.jqueryui.js",
+  "name": "datatables.net-jqui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-jQueryUI.git"
+  },
+  "style": "css/dataTables.jqueryui.css",
+  "version": "1.10.21"
+}

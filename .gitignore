@@ -1,0 +1,24 @@
+# Ignore core configuration files containing passwords
+sites/*/sqlconf.php
+sites/*/local/config.php
+
+# Ignore patient documents, certificates, and uploaded files (Crucial for HIPAA/Security)
+sites/*/documents/
+sites/*/edi/
+sites/*/era/
+sites/*/letter_templates/
+sites/*/namespaces/
+
+# Ignore application logs and temporary caches
+sites/*/couchdb/
+sites/*/git/
+swagger/logs/
+interface/modules/zend_modules/module/FlexibleMedicalBilling/src/FlexibleMedicalBilling/Log/
+sites/default/images/
+
+# Ignore general development/OS clutter
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.sql
