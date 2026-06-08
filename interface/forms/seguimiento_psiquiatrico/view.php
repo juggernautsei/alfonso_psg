@@ -1036,7 +1036,7 @@ $result = getPatientData($_SESSION['pid'], "sex,DOB,DATE_FORMAT(DOB,'%Y%m%d') as
                     <tr>
                       <td><label for="inputEmail4">Contenido de Pensamiento</label></td>
                       <td>
-                        <select class="form-control">
+                        <select class="form-control" name="contenido">
                           <option value="" <?php echo (($data['contenido'] == "") ? "selected" : "") ?>>--Select--</option>
                           <option value="Ideas delirantes" <?php echo (($data['contenido'] == "Ideas delirantes") ? "selected" : "") ?>>Ideas delirantes</option>
                           <option value="Obsesiones" <?php echo (($data['contenido'] == "Obsesiones") ? "selected" : "") ?>>Obsesiones</option>

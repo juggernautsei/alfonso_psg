@@ -257,17 +257,12 @@ print '<tr><td>
 '.$data['reeval_mental'].'</td><td>
 '.$data['reeval_mental_cmnt'].'
 </td></tr>
-<tr><td>
-<b>Comentario Adiccional:</b>
-</td><td>
-'.$data['coment_adicc'].'
-</td><td>
-'.$data['coment_otro_cmnt'].'
-</td></tr>
-<tr><td>
+<tr><td colspan="3">
 <br><br>
 <h4>Examen Mental</h4>
 <br><br>
+</td></tr>
+<tr><td>
 <b>Apariencia:</b>
 </td><td>
 '.$data['apariencia'].'
@@ -461,7 +456,10 @@ Tomar medicamentos segun especificados en receta medica y no hacer cambios per c
 Encargados o cuidadores del paciente disponibles al momento de la evaluación fueron orientados sobre
 forma de uso, indicación de tratamiento farmacológico y de los posibles efectos adversos de este.
 </p>
-
+<br>
+<table class="table borderless">
+<tr><td><b>Signature:</b> ___________________________</td></tr>
+</table>
 
 ';
 /*	print "<style>input[type='checkbox'][readonly] {
